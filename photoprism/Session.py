@@ -13,7 +13,7 @@ class Session():
         }
 
         self.host = host
-        self.url = f"http://{self.host}/api/v1"
+        self.url = f"https://{self.host}/api/v1"
 
     def create(self):
         """Create the session"""
